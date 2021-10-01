@@ -16,7 +16,7 @@
     <script>
  
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/checkt/firebase-messaging-sw.js')
+    navigator.serviceWorker.register('/checkt/firebase-messaging-sw.js',{scope: '/checkt/'})
   }
   
   // --- Application code here ---
